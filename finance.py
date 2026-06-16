@@ -73,7 +73,7 @@ def price_closed_form(S=S0, m=S0):
 
 print(f"[Formule fermee] prix continu exact = {price_closed_form():.4f}")
 
-# FIGURE SIMPLIFIÉE
+# FIGURE
 plt.figure(figsize=(8, 5))
 
 plt.errorbar(x, prices, yerr=[1.96 * e for e in errs], fmt='o',
